@@ -21,16 +21,9 @@ export const About = () => {
       <PageCursor/>
       
    
-        <div style={{display:'flex',justifyContent:'center'}}>
-            <h1 style={{color:'white',padding:"40px"}}>OUR NEW HOME</h1>
-            <ul style={{marginTop:"50px"}}>
-            <li>
-                <Link to="/" style={{color:'white'}}>Home</Link>
-                </li>
-                <li>
-                {/* <Link to="/contact">contact</Link> */}
-                </li>
-            </ul>
+        <div style={{display:'flex',justifyContent:'center',padding:'250px 0 0 0'}}>
+            <h1 style={{color:'white',textAlign:'center'}}>OUR ABOUT PAGE</h1>
+           
 
         </div>
         

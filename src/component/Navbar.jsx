@@ -83,7 +83,7 @@ const Navbar = () => {
      <header className="cd-header">
         <div className="header-wrapper">
         <div className="logo-wrap">
-            <Link to={'/about'} className="hover-target"><span>your</span>logo</Link>
+            <Link to={'/'} className="hover-target"><span>your</span>logo</Link>
         </div>
         <div className="nav-but-wrap">
             <div className="menu-icon hover-target" onClick={()=>menuIcon()}>

@@ -16,18 +16,18 @@ import { FaLinkedin } from "react-icons/fa";
 function Question() {
   return (
     <div className='social-media-links'>
-        <div className='social_links'>
-       <FaFacebook />
-        </div>
-        <div className='social_links'>
-       <FaGithub />
-        </div>
-        <div className='social_links'>
-       <FaTwitter />
-        </div>
-        <div className='social_links'>
-       <FaLinkedin />
-        </div>
+        <a >
+       <FaFacebook className='FaFacebook_social_links hover-target'/>
+        </a>
+        <a >
+       <FaGithub className='FaGithub_social_links hover-target'/>
+        </a>
+        <a >
+       <FaTwitter className='FaTwitter_social_links hover-target'/>
+        </a>
+        <a >
+       <FaLinkedin className='FaLinkedin_social_links hover-target'/>
+        </a>
 
     </div>
   );
@@ -195,9 +195,8 @@ export const Home = () => {
                 interactivity: {
                     events: {
                         onClick: {
-                            // enable: true,
                             enable: false,
-                            // mode: "push",
+                            mode: "push",
                         },
                         onHover: {
                             // enable: true,
@@ -222,10 +221,10 @@ export const Home = () => {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 120,
+                        distance: 110,
                         enable: true,
-                        opacity: 0.5,
-                        width: 0.4,
+                        opacity: 0.6,
+                        width: 0.5,
                     },
                     // collisions: {
                     //     enable: true,
@@ -250,9 +249,9 @@ export const Home = () => {
                     opacity: {
                         value: 0.2,
                     },
-                    // shape: {
-                    //     type: "circle",
-                    // },
+                    shape: {
+                        type: "circle",
+                    },
                     size: {
                         value: { min: 1, max: 5 },
                     },
