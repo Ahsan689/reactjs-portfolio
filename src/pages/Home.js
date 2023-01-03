@@ -207,11 +207,11 @@ export const Home = () => {
                     },
                     modes: {
                         push: {
-                            quantity: 1,
+                            quantity: 5,
                         },
                         repulse: {
                             distance: 80,
-                            duration: 0.4,
+                            duration: 0.6,
                         },
                     },
                 },
@@ -226,26 +226,26 @@ export const Home = () => {
                         opacity: 0.6,
                         width: 0.5,
                     },
-                    // collisions: {
-                    //     enable: true,
-                    // },
+                    collisions: {
+                        enable: true,
+                    },
                     move: {
                         directions: "none",
                         enable: true,
-                        // outModes: {
-                        //     default: "bounce",
-                        // },
+                        outModes: {
+                            default: "bounce",
+                        },
                         random: false,
-                        speed: 2,
+                        speed: 1.5,
                         straight: true,
                     },
-                    // number: {
-                    //     density: {
-                    //         enable: true,
-                    //         area: 800,
-                    //     },
-                    //     value: 80,
-                    // },
+                    number: {
+                        density: {
+                            enable: true,
+                            area: 800,
+                        },
+                        value: 70,
+                    },
                     opacity: {
                         value: 0.2,
                     },
