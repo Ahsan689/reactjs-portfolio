@@ -97,7 +97,7 @@ const Navbar = () => {
         <div className="nav">
             <div className="nav__content">
             <ul className="nav__list">
-                <li  className={`nav__list-item ${location.pathname=='/'? 'active-nav':''}`}><Link to={'/'}   className="hover-target">home</Link></li>
+                <li className={`nav__list-item ${location.pathname=='/'? 'active-nav':''}`}><Link to={'/'}   className="hover-target" >home</Link></li>
                 <li  className={`nav__list-item ${location.pathname=='/about'? 'active-nav':''}`}><Link to={'/about'}   className="hover-target">about</Link></li>
 
                 <li  className={`nav__list-item`}><Link  to={'/'}  className="hover-target">studio</Link></li>
