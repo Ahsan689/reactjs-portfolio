@@ -100,7 +100,7 @@ const Navbar = () => {
                 <li className={`nav__list-item ${location.pathname=='/'? 'active-nav':''}`}><Link to={'/'}   className="hover-target" >home</Link></li>
                 <li  className={`nav__list-item ${location.pathname=='/about'? 'active-nav':''}`}><Link to={'/about'}   className="hover-target">about</Link></li>
 
-                <li  className={`nav__list-item`}><Link  to={'/'}  className="hover-target">studio</Link></li>
+                <li  className={`nav__list-item ${location.pathname=='/project'? 'active-nav':''}`}><Link  to={'/project'}  className="hover-target">project</Link></li>
                 <li  className={`nav__list-item`}><Link  to={'/'}  className="hover-target">contact</Link></li>
             </ul>
             </div>

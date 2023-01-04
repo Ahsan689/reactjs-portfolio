@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { AnimatePresence } from "framer-motion";
 import Navbar from './component/Navbar';
+import { Project } from './pages/Projects';
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
   
