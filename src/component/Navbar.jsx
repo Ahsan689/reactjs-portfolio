@@ -82,9 +82,9 @@ const Navbar = () => {
 
      <header className="cd-header">
         <div className="header-wrapper">
-        <div className="logo-wrap">
-            <Link to={'/'} className="hover-target"><span>your</span>logo</Link>
-        </div>
+        {/* <div className="logo-wrap">
+            <Link style={{fontFamily:'Dancing Script', fontSize:10}} to={'/'} className="hover-target"><span></span>ahsan aleem</Link>
+        </div> */}
         <div className="nav-but-wrap">
             <div className="menu-icon hover-target" onClick={()=>menuIcon()}>
             <span className="menu-icon__line menu-icon__line-left" />
