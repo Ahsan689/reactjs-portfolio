@@ -53,10 +53,10 @@ export const About = () => {
               {/*about description*/}
               <span className="about-first-line">
                 I'm creative <span></span>
-                <span className="color">web developer</span> <span></span>
-                based in New York , USA </span>
+                <span className="color">MERN Stack developer</span> <span></span>
+              </span>
               <br />
-              <span className="about-second-line"> With 20 years of experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step while working.</span>
+              <span className="about-second-line"> As a Fullstack MERN Developer, I specialize in building robust and scalable web applications using modern technologies. With extensive experience in MongoDB, Express, React, and Node.js, I have a deep understanding of the MERN stack and its capabilities. Whether you're looking to build a powerful ecommerce platform or a dynamic social network, I have the skills and expertise to bring your vision to life. With a strong commitment to quality and attention to detail, I am dedicated to delivering cutting-edge solutions that exceed your expectations</span>
               <div className="cv hover-target">
                 <a href="#"><button>Download <span className="colors">CV</span></button></a>
               </div>
@@ -68,7 +68,7 @@ export const About = () => {
           </div>
 
       </div>
-      <div id="about-content">
+      <div id="about-content" style={{marginBottom:40}}>
         <div className="about-header">
               My <span className="color">Skills</span>
               {/* <span className="header-caption">Get to Know <span className="color"> me.</span></span> */}
