@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './responsive.css'
 import {BrowserRouter, Routes, Route, Link ,useLocation} from "react-router-dom"
 import { Home } from './pages/Home';
 import { About } from './pages/About';

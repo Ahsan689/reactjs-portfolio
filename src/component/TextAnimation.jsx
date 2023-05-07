@@ -37,8 +37,8 @@ const TextAnimation = () => {
   return (
     <>
     <h2 style={{fontFamily:'Aboreto',position:'relative',fontSize:42}} className="">Fullstack <span className="color ml12" style={{color:'crimson',fontSize:42}}> MERN developer</span>  </h2> 
-     <h3 style={{fontFamily:'Aboreto',color:'whitesmoke', fontSize:28,textTransform:'capitalize'}}> Crafting Robust and Scalable Web Applications </h3>
-     <h3 style={{fontFamily:'Aboreto',color:'whitesmoke', fontSize:28,textTransform:'capitalize'}}>   with Modern Technologies</h3>
+     <h3 className='main_headline' style={{fontFamily:'Aboreto',color:'whitesmoke', fontSize:28,textTransform:'capitalize'}}> Crafting Robust and Scalable Web Applications </h3>
+     <h3 className='main_headline' style={{fontFamily:'Aboreto',color:'whitesmoke', fontSize:28,textTransform:'capitalize'}}>   with Modern Technologies</h3>
     </>
   )
 }
