@@ -35,7 +35,7 @@ const MySkills = () =>{
         </div>
         <div className="portfolio portfolio-third">
             <div className="portfolio-image">
-            <img src="images/preview.png" alt="portfolio-third" />
+            <img src="images/Screenshot 2023-05-07 175038.png" alt="portfolio-third" />
             </div>
             <div className="portfolio-text">
             <h2>Doctor's appointment Dashboard</h2>
@@ -44,9 +44,31 @@ const MySkills = () =>{
             </div>
         </div>
         <div className="portfolio portfolio-fourth">
+            <div className="portfolio-image">
+            <img src="images/preview.png" alt="portfolio-fourth" />
+            </div>
+            <div className="portfolio-text">
+            <h2>Doctor's appointment Dashboard</h2>
+            <p>Our doctor's appointment dashboard, built with React, Firebase, and Ant Design, streamlines the appointment booking process for medical professionals and patients alike. With its intuitive interface and real-time data updates, our dashboard allows doctors to efficiently manage their appointments and patients to easily schedule and modify their bookings. Featuring robust authentication and authorization capabilities, our dashboard ensures the privacy and security of sensitive medical information</p>
+            {/* <div className="button"><a href="#"><button><span className="index"> View Project<i className="gg-arrow-right" /></span></button></a></div> */}
+            </div>
+        </div>
+        <div className="portfolio portfolio-fifth">
             <div className=" portfolio-image">
             
-            <img src="images/Screenshot 2023-04-02 014743.png" alt="portfolio-fourth" />
+            <img src="images/Screenshot 2023-05-07 174557.png" alt="portfolio-fifth" />
+            </div>
+            <div className="portfolio-text">
+            <h2>Tic Tac Toe </h2>
+            <p>Our Tic Tac Toe game, built with ReactJS and Framer Motion, offers a fun and interactive twist on a classic game. Featuring smooth animations and an engaging user interface, our game provides hours of entertainment for players of all ages. With its simple functionality and eye-catching design, our Tic Tac Toe game is the perfect addition to any gaming collection.</p>
+          
+            {/* <div className="button"><a href="#"><button><span className="index"> View Project<i className="gg-arrow-right" /></span></button></a></div> */}
+            </div>
+        </div>
+        <div className="portfolio portfolio-sixth">
+            <div className=" portfolio-image">
+            
+            <img src="images/Screenshot 2023-04-02 014743.png" alt="portfolio-sixth" />
             </div>
             <div className="portfolio-text">
             <h2>Tic Tac Toe </h2>

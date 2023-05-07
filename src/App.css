@@ -1213,6 +1213,22 @@ body.light .switch-wrap p span:nth-child(1):before {
 		background: #080808;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		transition: 0.5s ease-in;
+		border: 1px solid rgb(0, 0, 0);
+	}
+	 
+	.portfolio-text:hover{
+		width: 40%;
+		padding-left: 1%;
+		margin: 1%;
+		margin-left: -40px;
+		margin-top: 160px;
+		z-index: 3;
+		opacity: 1;
+		background: #080808;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: 1px solid rgb(0, 144, 158);
 	}
 	.portfolio-text h2 {
 		font-size: 35px;
