@@ -60,7 +60,7 @@ body {
   color: #c4c3ca;
   background-color: #17171a;
   color: var(--accent);
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -276,6 +276,11 @@ img {
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gloria+Hallelujah&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gloria+Hallelujah&family=Great+Vibes&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Gloria+Hallelujah&family=Great+Vibes&family=Shadows+Into+Light&display=swap');
 
 /* body{
 	font-family: 'Montserrat', sans-serif;
@@ -678,14 +683,16 @@ a:hover {
 	-webkit-transition: all 500ms linear;
 	transition: all 500ms linear; 
 	margin: 0 auto;
-	text-align: center;
+	/* text-align: center; */
+	text-align: inherit;
+	margin-left: 15%;
 }
 .switch-wrap h2 {
 	font-weight: 900;
 	font-size: 46px;
 	line-height: 1;
 	color: #fff;
-	text-align: center;
+	/* text-align: center; */
 	text-transform: uppercase;
 	margin-bottom: 40px;
 	-webkit-transition: all 300ms linear;
@@ -965,9 +972,10 @@ body.light .switch-wrap p span:nth-child(1):before {
 	 font-weight: 200;
 	 font-size: 1.8em;
 	 text-transform: uppercase;
-	 letter-spacing: 0.5em;
+	 letter-spacing: 0.3em;
    }
    
+
    .ml12 .letter {
 	 display: inline-block;
 	 line-height: 1em;

@@ -6,6 +6,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Navbar from '../component/Navbar';
 import PageCursor from '../component/PageCursor';
+import TextAnimation from '../component/TextAnimation';
 import { FaBeer } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -259,7 +260,6 @@ export const Home = () => {
                 detectRetina: true,
             }}
          />
-         
             <motion.div
                 className="container text-center"
                 initial={{ opacity: 0 }}
@@ -268,8 +268,10 @@ export const Home = () => {
                 transition={{ duration: 1.1 }}
                 >
             {/* <Navbar/> */}
+                
+               
+              
                 <PageCursor/>
-
                         {/* <div className="sphere-animation">
                             <svg className="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
                                 <defs>
@@ -302,19 +304,22 @@ export const Home = () => {
                                 <path d="M109.698 109.332c-24.408 24.407-51.12 37.268-59.663 28.726-8.542-8.543 4.319-35.255 28.727-59.662 24.407-24.408 51.12-37.27 59.662-28.727 8.543 8.543-4.319 35.255-28.726 59.663z"/>
                             </svg>
                         </div> */}
-                    {/* <div className="section full-height over-hide">	
+                <Question/>
+                            
+                    <div className="section full-height over-hide">	
                         <div className="switch-wrap">
-                        <h2 style={{position:'relative'}} className="ml12">overlay menu</h2>
+                            <TextAnimation/>
+                        {/* <h2 style={{position:'relative'}} className="ml12">overlay menu</h2>
                         <h1 style={{position:'relative'}}>overlay menu</h1>
                         <div id="switch" className="">
-                            <div id="circle" />
+                        <div id="circle" />
                         </div>
-                        <p><span>dark</span> - <span>light</span></p>
+                    <p><span>dark</span> - <span>light</span></p> */}
                         </div>
-                    </div>	 */}
+                    </div>	
 
-                    
-                <Question/>
+                
+               
         </motion.div>
 
         {/* Right to Left Sliding PANEL */}
