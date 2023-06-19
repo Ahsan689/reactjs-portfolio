@@ -63,7 +63,7 @@ export const About = () => {
             </div>
             {/*about picture*/}
             <div className="about-img">
-              <img src="images/about.jpg" alt="Your Image" />
+              <img src="images/IMG_2010-removebg-preview (1).png" alt="Your Image" />
             </div>
           </div>
 
