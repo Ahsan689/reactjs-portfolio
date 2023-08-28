@@ -38,8 +38,8 @@ const MySkills = () =>{
             <img src="images/Screenshot 2023-05-07 175038.png" alt="portfolio-third" />
             </div>
             <div className="portfolio-text">
-            <h2>Doctor's appointment Dashboard</h2>
-            <p>Our doctor's appointment dashboard, built with React, Firebase, and Ant Design, streamlines the appointment booking process for medical professionals and patients alike. With its intuitive interface and real-time data updates, our dashboard allows doctors to efficiently manage their appointments and patients to easily schedule and modify their bookings. Featuring robust authentication and authorization capabilities, our dashboard ensures the privacy and security of sensitive medical information</p>
+            <h2>Portfolio Dashboard</h2>
+            <p>The personal branding dashboard is a web application designed to showcase an individual's professional portfolio and personal brand. Built using ReactJS, NodeJS, and Material-UI, the dashboard offers a clean and modern interface that is both visually appealing and user-friendly. The dashboard allows users to create and manage their portfolio, including adding projects, skills, and experience. It also provides analytics and insights into the performance of their brand, including website traffic and social media engagement. With its powerful features and intuitive design, the personal branding dashboard is an ideal tool for individuals looking to establish and grow their personal brand online.</p>
             {/* <div className="button"><a href="#"><button><span className="index"> View Project<i className="gg-arrow-right" /></span></button></a></div> */}
             </div>
         </div>
@@ -59,8 +59,8 @@ const MySkills = () =>{
             <img src="images/Screenshot 2023-05-07 174557.png" alt="portfolio-fifth" />
             </div>
             <div className="portfolio-text">
-            <h2>Tic Tac Toe </h2>
-            <p>Our Tic Tac Toe game, built with ReactJS and Framer Motion, offers a fun and interactive twist on a classic game. Featuring smooth animations and an engaging user interface, our game provides hours of entertainment for players of all ages. With its simple functionality and eye-catching design, our Tic Tac Toe game is the perfect addition to any gaming collection.</p>
+            <h2>Memory Sharing App </h2>
+            <p>The Memories app is a social media platform built using React and NodeJS that allows users to share their memories with others. Users can upload pictures to create posts that reflect their personal experiences. Other users can view, like, or dislike these posts, and leave comments to engage with the content. The app uses modern web technologies to provide a seamless and intuitive user experience, including real-time updates and responsive design. With its social features and interactive interface, the Memories app is a great way for people to connect and share their life experiences with others.</p>
           
             {/* <div className="button"><a href="#"><button><span className="index"> View Project<i className="gg-arrow-right" /></span></button></a></div> */}
             </div>
